@@ -239,13 +239,12 @@ nav{
   font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.4rem;
   color:var(--ink);
 }
-/* Snapshot rows: 3=Projets(green), 4=Satisfaction(green), 5=Churn(yellow), 6=GRR(yellow), 7=NRR(yellow), 8=CA(ink) */
+/* Snapshot rows: 3=Projets(green), 4=Satisfaction(green), 5=GRR(yellow), 6=NRR(yellow), 7=CA(ink) */
 .hero-card .row:nth-child(3) .val{color:var(--green-deep)}
 .hero-card .row:nth-child(4) .val{color:var(--green-deep)}
 .hero-card .row:nth-child(5) .val{color:var(--yellow-deep)}
 .hero-card .row:nth-child(6) .val{color:var(--yellow-deep)}
-.hero-card .row:nth-child(7) .val{color:var(--yellow-deep)}
-.hero-card .row:nth-child(8) .val{color:var(--ink)}
+.hero-card .row:nth-child(7) .val{color:var(--ink)}
 .hero-card .roles{
   display:flex;flex-wrap:wrap;gap:6px;margin-top:18px;
 }
